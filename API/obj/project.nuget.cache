@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "W7quuqi0wBddWDcqQ02UhgjHwQD6KnYm7bEzxIIxi0qMF1pSTKMY34EvT5/Q1P01Us/3jmiTeD9gkGt7YYziww==",
+  "dgSpecHash": "iKdA9JwWPghEqWeukVa4hvlf6yc9GzlbE3nIZ2Og+kOVxXwNr8KY8DGrG3RGRuy7oflBQN9H3vWfu4zHS19c8Q==",
   "success": true,
-  "projectFilePath": "n:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "N:\\Projekty\\asp.net\\DatingApp\\Api\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dawid\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.7\\microsoft.data.sqlite.core.6.0.7.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.7\\microsoft.entityframeworkcore.analyzers.6.0.7.nupkg.sha512",
+    "C:\\Users\\dawid\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.7\\microsoft.entityframeworkcore.design.6.0.7.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.7\\microsoft.entityframeworkcore.relational.6.0.7.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\6.0.7\\microsoft.entityframeworkcore.sqlite.6.0.7.nupkg.sha512",
     "C:\\Users\\dawid\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\6.0.7\\microsoft.entityframeworkcore.sqlite.core.6.0.7.nupkg.sha512",

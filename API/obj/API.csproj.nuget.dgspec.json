@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "n:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj": {}
+    "N:\\Projekty\\asp.net\\DatingApp\\Api\\API.csproj": {}
   },
   "projects": {
-    "n:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj": {
+    "N:\\Projekty\\asp.net\\DatingApp\\Api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "n:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "N:\\Projekty\\asp.net\\DatingApp\\Api\\API.csproj",
         "projectName": "API",
-        "projectPath": "n:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj",
+        "projectPath": "N:\\Projekty\\asp.net\\DatingApp\\Api\\API.csproj",
         "packagesPath": "C:\\Users\\dawid\\.nuget\\packages\\",
-        "outputPath": "n:\\Projekty\\asp.net\\DatingApp\\API\\obj\\",
+        "outputPath": "N:\\Projekty\\asp.net\\DatingApp\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "N:\\Visual Studio\\Shared\\NuGetPackages",
@@ -27,6 +27,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +46,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.7, )"
