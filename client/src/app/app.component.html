@@ -1,1 +1,6 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 <h1>{{title}}</h1>
+
+<ul>
+    <li *ngFor="let user of users">{{user.id}} - {{user.userName}}</li>
+</ul>
