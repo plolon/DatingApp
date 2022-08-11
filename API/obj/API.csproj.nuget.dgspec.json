@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "N:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj": {}
+    "N:\\Projekty\\asp.net\\DatingApp\\api\\API.csproj": {}
   },
   "projects": {
-    "N:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj": {
+    "N:\\Projekty\\asp.net\\DatingApp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "N:\\Projekty\\asp.net\\DatingApp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "N:\\Projekty\\asp.net\\DatingApp\\API\\API.csproj",
+        "projectPath": "N:\\Projekty\\asp.net\\DatingApp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\dawid\\.nuget\\packages\\",
-        "outputPath": "N:\\Projekty\\asp.net\\DatingApp\\API\\obj\\",
+        "outputPath": "N:\\Projekty\\asp.net\\DatingApp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "N:\\Visual Studio\\Shared\\NuGetPackages",
