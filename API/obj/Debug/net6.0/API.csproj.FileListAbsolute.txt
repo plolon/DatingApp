@@ -52,3 +52,11 @@ N:\Projekty\asp.net\DatingApp\Api\bin\Debug\net6.0\runtimes\win-x64\native\e_sql
 N:\Projekty\asp.net\DatingApp\Api\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 N:\Projekty\asp.net\DatingApp\Api\bin\Debug\net6.0\Humanizer.dll
 N:\Projekty\asp.net\DatingApp\Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+N:\Projekty\asp.net\DatingApp\api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
