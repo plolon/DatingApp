@@ -17,7 +17,7 @@ namespace API.Controllers
         }
 
         [HttpPost("register")]
-        public async Task<ActionResult<AppUser>> Register(RegisterDTO registerDto)
+        public async Task<ActionResult<AppUser>> Register(RegisterDto registerDto)
         {
             if (await UserExists(registerDto.UserName))
                 return BadRequest("Username is taken");
@@ -30,6 +30,25 @@ namespace API.Controllers
             };
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
+            return user;
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<AppUser>> Login(LoginDto loginDto)
+        {
+            var user = await _context.Users.SingleOrDefaultAsync(x => x.UserName.Equals(loginDto.UserName));
+            if (user == null)
+                return Unauthorized("Invalid Username");
+            using var hmac = new HMACSHA512(user.PasswordSalt);
+            var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
+
+            for (int i = 0; i < computedHash.Length; i++)
+            {
+                if (computedHash[i] != user.PasswordHash[i])
+                {
+                    return Unauthorized("Invalid Password");
+                }
+            }
             return user;
         }
 
