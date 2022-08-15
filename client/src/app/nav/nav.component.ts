@@ -25,6 +25,19 @@ export class NavComponent implements OnInit {
   }
 
   logout() {
+    this.accountService.logout();
     this.loggedIn = false;
+  }
+
+  getCurrentUser() {
+    this.accountService.currentUser$.subscribe(
+      (user) => {
+        console.log(user);
+        this.loggedIn = !!user;
+      },
+      (err) => {
+        console.error(err);
+      }
+    );
   }
 }
